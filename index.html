@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Play Rock, Scissors, Paper!!</title>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" type="text/css" href="styles.css">
+   </head>
+
+   <body>
+   <div style="text-align: center;">
+           <H1><strong>Rock! Paper! Scissors!<strong></H1>
+           <!-- <H2>Instructions</H2> -->
+           <p>Click a button to choose what to throw</p>
+           <p id="buttons">
+               <input class="rock" type="button" value="Rock" onclick="hand(0);" />
+               <input class="rock" type="button" value="Paper" onclick="hand(1);" />
+               <input class="rock" type="button" value="Scissors" onclick="hand(2);" />
+           </p>
+         
+           <ul id="scoreboard">
+                   Wins: <span id="win">0</span>
+               <br/>
+                   Losses: <span id="lose">0</span>
+               <br/>
+                   Ties: <span id="tie">0</span>
+           </ul>
+
+
+
+
+   <script src="index.js"></script>
+   </body>
+
+</html>
